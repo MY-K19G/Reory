@@ -1,0 +1,14 @@
+# Environment variables (contains sensitive passwords and API keys)
+.env
+.env.local
+.env.*.local
+
+# Compiled Java & Maven
+target/
+*.class
+
+# IDE & OS files
+.idea/
+*.iml
+.DS_Store
+Thumbs.db

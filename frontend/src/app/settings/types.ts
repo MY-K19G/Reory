@@ -1,0 +1,16 @@
+export type SettingsModalType =
+  | 'profile'
+  | 'password'
+  | 'privacy'
+  | 'help'
+  | 'dailyGoal'
+  | 'reviewSchedule'
+  | 'geminiKey'
+  | 'pexelsKey'
+  | 'studyLanguages'
+  | 'appLanguages'
+  | 'wordChecklist'
+  | 'exportData'
+  | 'importData'
+  | 'deleteAccount'
+  | null;

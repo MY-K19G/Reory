@@ -1,0 +1,24 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Dark background circle -->
+    <!-- Subtle outer glow/border -->
+    <linearGradient id="ringGrad" x1="60" y1="452" x2="452" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#475569" />
+      <stop offset="45%" stop-color="#94A3B8" />
+      <stop offset="100%" stop-color="#F8FAFC" />
+    </linearGradient>
+    <linearGradient id="innerDot" x1="160" y1="256" x2="350" y2="256" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#94A3B8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer background rounded dark badge for high contrast on light & dark browser tabs -->
+  <rect width="512" height="512" rx="120" fill="#0f0f0f" />
+  
+  <!-- Outer metallic ring -->
+  <circle cx="256" cy="256" r="170" stroke="url(#ringGrad)" stroke-width="32" fill="#18181b" />
+  
+  <!-- Off-center moon / inner sphere -->
+  <circle cx="236" cy="256" r="88" fill="url(#innerDot)" />
+</svg>
